@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-25T11:36:42 IST" name="Suite" finished-at="2024-09-25T11:36:53 IST" duration-ms="11500">
+    <groups>
+    </groups>
+    <test started-at="2024-09-25T11:36:42 IST" name="Test" finished-at="2024-09-25T11:36:53 IST" duration-ms="11500">
+      <class name="com.actitime.testcases.TC1_LoginLogout">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.testcases.TC1_LoginLogout@15bb5034]" started-at="2024-09-25T11:36:42 IST" name="setup" finished-at="2024-09-25T11:36:49 IST" duration-ms="6664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.actitime.testcases.TC1_LoginLogout@15bb5034]" started-at="2024-09-25T11:36:49 IST" name="login" finished-at="2024-09-25T11:36:50 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.actitime.testcases.TC1_LoginLogout@15bb5034]" started-at="2024-09-25T11:36:50 IST" name="logout" finished-at="2024-09-25T11:36:53 IST" depends-on-methods="com.actitime.testcases.TC1_LoginLogout.login" duration-ms="3498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.actitime.testcases.TC1_LoginLogout@15bb5034]" started-at="2024-09-25T11:36:53 IST" name="teardown" finished-at="2024-09-25T11:36:53 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.actitime.testcases.TC1_LoginLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
